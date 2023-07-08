@@ -1,23 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import Accueil from '../pages/Accueil';
-import Projets from '../pages/Projets';
-import Contact from '../pages/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Accueil from './components/pages/Accueil';
+import Projets from './components/pages/Projets';
+import Contact from './components/pages/Contact';
+import Temoignages from './components/pages/Temoignages';
+
+
+
+import './App.css';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <main>
-        <Route path="/" exact component={Accueil} />
-        <Route path="/projets" component={Projets} />
-        <Route path="/contact" component={Contact} />
-      </main>
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/projets" element={<Projets />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/temoignages" element={<Temoignages />} />
+      </Routes>
       <Footer />
     </Router>
   );
 };
+
 
 export default App;

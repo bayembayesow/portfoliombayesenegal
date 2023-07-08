@@ -1,0 +1,19 @@
+/* footer.css */
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer-link:hover {
+    color: #ff0000;
+  }
+  
+  
