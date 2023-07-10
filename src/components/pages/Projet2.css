@@ -1,0 +1,65 @@
+.pagewrapper {
+    display: flex;
+    margin-bottom: 6rem;
+  }
+  
+  .contentwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+ 
+  .main {
+    flex: 1;
+  }
+  
+  
+  .advert {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advert h2 {
+    margin-bottom: 1em;
+  }
+  
+  .winter {
+    background-color: #3f5aa3;
+    color: #fff;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+  }
+  
+  .sled {
+    background-color: #5394d1;
+    color: #fff;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+  }
+  
+  .sled nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sled nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+  }
+  
+  .galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+  }
+  
+  .galerie img {
+    width: 100%;
+    height: auto;
+  }
+  

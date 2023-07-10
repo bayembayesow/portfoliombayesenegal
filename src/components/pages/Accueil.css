@@ -1,27 +1,55 @@
-/* Accueil.css */
+.pagewrapper {
+  display: flex;
+}
 
-.accueil-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .accueil-title {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .accueil-description {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .accueil-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
+.contentwrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.photo {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.advert {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.winter {
+  background-color: #3f5aa3;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sled {
+  background-color: #5394d1;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Ajoutez ici d'autres styles spécifiques au besoin */

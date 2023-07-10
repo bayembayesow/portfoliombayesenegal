@@ -1,36 +1,33 @@
-/* contact.css */
-
 .contact-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .contact-form {
-    margin-bottom: 20px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-form button {
-    padding: 10px 20px;
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .contact-form button:hover {
-    background-color: #ff3333;
-  }
-  
-  .contact-success {
-    color: #00cc00;
-    font-weight: bold;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ff3333;
+}
+
+.contact-success {
+  color: #00cc00;
+  font-weight: bold;
+}
