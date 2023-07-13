@@ -1,0 +1,36 @@
+.form-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .form-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-wrapper input,
+  .form-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .temoignages-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .temoignages-list-item {
+    margin-bottom: 10px;
+  }
+  
+  .temoignages-list-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .temoignages-list-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  

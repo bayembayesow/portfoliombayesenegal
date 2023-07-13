@@ -1,0 +1,33 @@
+/* Styles spécifiques à l'application */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styles généraux */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles du header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Styles du footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles des pages */
+  .page {
+    padding: 20px;
+  }
+  

@@ -27,14 +27,7 @@ const Projet1 = () => {
               </nav>
             </div>
           </div>
-          <div className={styles.galerie}>
-            <img src="" alt="page accueil" />
-            <img src="" alt="RDVmedecin" />
-            <img src="" alt="Page-inscription" />
-            <img src="" alt="consulter-service" />
-            <img src="" alt="Donnéés-admin" />
-            <img src="" alt="Donnée-patient" />
-          </div>
+          
         </main>
       </div>
     </div>
