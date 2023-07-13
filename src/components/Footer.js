@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/votre-profil">LinkedIn</a>
       </div>
 
-       {/* Ajoutez le contenu de votre pied de page ici */}
+       
     </footer>
   );
 };
